@@ -1,0 +1,43 @@
+{
+  "name": "codicastudio/phpcsfixer",
+  "description": "A noobs worthless garbage, just learning.",
+  "keywords": [
+      "worthless garabage by a noob."
+  ],
+  "homepage": "https://github.com/codicastudio/phpcsfixer",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Michael J Brown",
+          "email": "mbrown@codicastudio.com",
+          "homepage": "https://codicastudio.com",
+          "role": "Developer"
+      }
+  ],
+
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+      "STS\\Fixer\\": "src"
+    },
+    "files": [
+    ]
+  },
+  "require": {
+    "php": "^7.4",
+    "illuminate/support": "^8.0",
+    "friendsofphp/php-cs-fixer": "^2.14"
+  },
+  "require-dev": {
+    "illuminate/console": "^5.4|^6.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "STS\\Fixer\\FixerServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable"
+}

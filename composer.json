@@ -1,10 +1,10 @@
 {
-  "name": "codicastudio/phpcsfixer",
-  "description": "A noobs worthless garbage, just learning.",
+  "name": "codica-studio/phpcsfixer",
+  "description": "A random Codica Studio package.",
   "keywords": [
-      "worthless garabage by a noob."
+      ""
   ],
-  "homepage": "https://github.com/codicastudio/phpcsfixer",
+  "homepage": "https://github.com/codica-studio/phpcsfixer",
   "license": "MIT",
   "authors": [
       {
@@ -25,7 +25,7 @@
     ]
   },
   "require": {
-    "php": "^7.4",
+    "php": "^7.4 || ^8.0",
     "illuminate/support": "^8.0",
     "friendsofphp/php-cs-fixer": "^2.14"
   },
